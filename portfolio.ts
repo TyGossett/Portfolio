@@ -12,12 +12,12 @@ import {
 } from './types/sections';
 
 export const greetings: GreetingsType = {
-  name: 'Hanzla Tauqeer',
-  title: "Hi all, I'm Hanzla",
+  name: 'Ty Gossett',
+  title: "Hi all, I'm Ty Gossett",
   description:
-    "I'm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
+    "I'Experienced data scientist skilled in predictive modeling, machine learning algorithms,and data analysis strategies. Passionate about leveraging statistical analysis, data visualization, and programming to drive revenue growth, cost savings, and process efficiencies for clientsm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
   resumeLink:
-    'https://docs.google.com/document/d/1_4RIfbyt4FFHW_bNplnoINQr01neTu7XDeeUlT_2O_k/edit?usp=sharing',
+    'https://1drv.ms/b/s!AoJRZTfHBX6ngkDoPH6vojaubAv5?e=Ql3ykU',
 };
 
 export const openSource = {
