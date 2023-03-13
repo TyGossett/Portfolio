@@ -246,11 +246,7 @@ export const experience: ExperienceType[] = [
     company: 'North East Ohio Tennis',
     companyLogo: '/img/icons/common/dusecaSoftware.jpg',
     date: 'May 2014 – January 2022',
-    desc: 'Developed and implemented measurable solutions that improved tennis players\' physical fitness, game knowledge, technique, and teamwork while fostering an inclusive learning environment that effectively communicated the intricacies of tennis to individuals with varying levels of experience and from diverse socioeconomic backgrounds.
-
-
-
-    ',
+    desc: 'Developed and implemented measurable solutions that improved tennis players\' physical fitness, game knowledge, technique, and teamwork while fostering an inclusive learning environment that effectively communicated the intricacies of tennis to individuals with varying levels of experience and from diverse socioeconomic backgrounds.',
     // descBullets: [
     // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
     // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
