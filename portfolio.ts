@@ -31,6 +31,8 @@ export const socialLinks = {
   linkedin: 'https://www.linkedin.com/in/ty-gossett-254382a5/',
   github: 'https://github.com/TyGossett',
   instagram: 'https://www.instagram.com/gossettty/',
+  facebook: 'https://www.facebook.com/',
+  twitter: 'https://www.twitter.com/'
 };
 
 export const skillsSection: SkillsSectionType = {
@@ -193,11 +195,11 @@ export const skillsSection: SkillsSectionType = {
 
 export const SkillBars: SkillBarsType[] = [
   {
-    Stack: 'Frontend/Design', //Insert stack or technology you have experience in
+    Stack: 'Data Visualization', //Insert stack or technology you have experience in
     progressPercentage: '90', //Insert relative proficiency in percentage
   },
   {
-    Stack: 'Backend',
+    Stack: 'Machine Learning',
     progressPercentage: '70',
   },
   {
@@ -206,27 +208,38 @@ export const SkillBars: SkillBarsType[] = [
   },
 ];
 
-export const educationInfo: EducationType[] = [
+export const educationInfo = [
   {
-    schoolName: 'Harvard University',
-    subHeader: 'Master of Science in Computer Science',
-    duration: 'September 2017 - April 2019',
-    desc: 'Participated in the research of XXX and published 3 papers.',
-    grade: 'Grade A',
+    schoolName: 'Rochester Institute of Technology',
+    subHeader: 'Bachelor of Science in Applied Mathematics',
+    duration: 'August 2013 - December 2018',
     descBullets: [
-      'Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      'Head Tutor: RIT youth outreach high school tutor program',
+      'Member: Rock climbing club, Club tennis, Juggling Club, Debate Club',
     ],
   },
+  {
+    schoolname: 'Kent State University',
+    subHeader: 'Masters of Education in Research, Measurement, and Statistics',
+    duration: 'Auguts 2020 - current'
+  }
 ];
 
 export const experience: ExperienceType[] = [
   {
-    role: 'Frontend Developer',
-    company: 'Duseca Software',
-    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
+    role: 'Data Scientist',
+    company: 'PARQA',
+    companylogo: '/img/icons/common/dusecaSoftware.jpg',
     date: 'Apr 2022 – Jun 2022',
-    desc: 'I worked as frontend web developer to design web based admin dashboards for mulitple apps using Django, Bootstrap, jQuery, Chart.js and some other libraries.',
+    desc: 'As a client-facing data scientist in a marketing agency startup that works with staffing firms, I analyze large amounts of staffing industry data to develop predictive models and segmentation strategies that optimize the performance of clients\' marketing campaigns and recruitment initiatives. I collaborate closely with clients to understand their business goals and requirements, and regularly communicate data-driven insights and recommendations to ensure they stay informed and achieve measurable results.',
+    descBullets: [ 
+      'Developed and implemented a highly effective machine learning algorithm using Python that matched jobs with applicants, resulting in a 200% increase in candidate engagement and leading to more successful matches while significantly improving recruiter efficiency.',
+      'Collaborated with C-suite executives to align business goals and priorities, leveraging advanced statistical analysis and data visualization techniques to drive informed decision-making and foster a culture of data-driven innovation.',
+      'Led development of marketing measurement plans in close partnership with enterprise marketing leaders, utilizing SQL and Salesforce to accurately track and optimize campaigns that ultimately drove a 10% increase in customer acquisition.',
+      'Worked cross-functionally with strategic teams to deliver prioritized marketing strategies with estimated outcomes, leveraging A/B testing, predictive modeling, and data mining techniques.',
+      'Effectively visualized complex data insights using packages such as Matplotlib and Seaborn to communicate key findings and recommendations to business stakeholders, enabling informed decision-making and driving business impact.',
+      'Developed a comprehensive measurement strategy solution that\'s now standard in the first sale SOW, generating $30,000 per client.',
+    ]
   },
   {
     role: 'API Engineer',
