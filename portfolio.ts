@@ -231,7 +231,7 @@ export const experience: ExperienceType[] = [
   {
     role: 'Data Scientist',
     company: 'PARQA',
-    companylogo: '/img/icons/common/dusecaSoftware.jpg',
+    companyLogo: '/img/icons/common/ParqaLogo.png',
     date: 'Apr 2022 – Jun 2022',
     desc: 'As a client-facing data scientist in a marketing agency startup that works with staffing firms, I analyze large amounts of staffing industry data to develop predictive models and segmentation strategies that optimize the performance of clients\' marketing campaigns and recruitment initiatives. I collaborate closely with clients to understand their business goals and requirements, and regularly communicate data-driven insights and recommendations to ensure they stay informed and achieve measurable results.',
     descBullets: [ 
