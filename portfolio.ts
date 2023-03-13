@@ -213,6 +213,7 @@ export const educationInfo = [
     schoolName: 'Rochester Institute of Technology',
     subHeader: 'Bachelor of Science in Applied Mathematics',
     duration: 'August 2013 - December 2018',
+    desc: '',
     descBullets: [
       'Head Tutor: RIT youth outreach high school tutor program',
       'Member: Rock climbing club, Club tennis, Juggling Club, Debate Club',
@@ -221,7 +222,8 @@ export const educationInfo = [
   {
     schoolName: 'Kent State University',
     subHeader: 'Masters of Education in Research, Measurement, and Statistics',
-    duration: 'Auguts 2020 - current'
+    duration: 'Auguts 2020 - current',
+    desc: '',
   }
 ];
 
