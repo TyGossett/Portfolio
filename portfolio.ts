@@ -17,7 +17,7 @@ export const greetings: GreetingsType = {
   description:
     "I'Experienced data scientist skilled in predictive modeling, machine learning algorithms,and data analysis strategies. Passionate about leveraging statistical analysis, data visualization, and programming to drive revenue growth, cost savings, and process efficiencies for clientsm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
   resumeLink:
-    'https://1drv.ms/b/s!AoJRZTfHBX6ngkDoPH6vojaubAv5?e=Ql3ykU',
+    'https://1drv.ms/b/s!AoJRZTfHBX6ngkAqa0JZWPgBbvEb?e=7gyVMq',
 };
 
 export const openSource = {
@@ -36,39 +36,38 @@ export const socialLinks = {
 };
 
 export const skillsSection: SkillsSectionType = {
-  title: 'What I do',
+  title: 'Somne of my projects',
   subTitle: 'Data Scientist with a passion for work that helps people.',
   data: [
     {
-      title: 'Data Science',
-      lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
+      title: 'Job Scoring',
+      lottieAnimationFile: '/lottie/skills/JobScoring.json', // Path of Lottie Animation JSON File
       skills: [
         emoji(
-          '⚡ Machine learning with libraries like NumPy, SciKitLearn, and Pandas'
+          '⚡ Collaborated with business leaders of a top ten travel nursing and medical staffing agency to develop a job scoring algorithm aimed at matching candidates with relevant contracts.'
         ),
-        emoji('⚡ Data visualization with BI tools and packages like Seaborn and MatPlotLib'),
-        emoji('⚡ Using API\'s to better set up clients for success within applicant tracking systems.'),
+        emoji('⚡ Conducted a thorough assessment of the agency’s tech stack capabilities, and delivered a high-performing algorithm using Python and Salesforce data that exceeded traditional matching methods.'),
       ],
       softwareSkills: [
         {
-          skillName: 'HTML-5',
-          fontAwesomeClassName: 'vscode-icons:file-type-html',
+          skillName: 'Salesforce',
+          fontAwesomeClassName: 'logos:salesforce',
         },
         {
-          skillName: 'CSS-3',
-          fontAwesomeClassName: 'vscode-icons:file-type-css',
+          skillName: 'LaTex',
+          fontAwesomeClassName: 'logos:latex-dark',
         },
         {
-          skillName: 'JavaScript',
-          fontAwesomeClassName: 'logos:javascript',
+          skillName: 'Machine Learning',
+          fontAwesomeClassName: 'logos:machine-learning-model',
         },
         {
-          skillName: 'Reactjs',
-          fontAwesomeClassName: 'vscode-icons:file-type-reactjs',
+          skillName: 'numpy',
+          fontAwesomeClassName: 'logos:numpy',
         },
         {
-          skillName: 'Nextjs',
-          fontAwesomeClassName: 'vscode-icons:file-type-light-next',
+          skillName: 'SciKitLearn',
+          fontAwesomeClassName: 'logos:scikitlearn',
         },
         {
           skillName: 'Python',
