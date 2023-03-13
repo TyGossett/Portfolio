@@ -21,33 +21,31 @@ export const greetings: GreetingsType = {
 };
 
 export const openSource = {
-  githubUserName: '1hanzla100',
+  githubUserName: 'TyGossett',
 };
 
 export const contact = {};
 
-export const socialLinks: SocialLinksType = {
-  url: 'https://1hanzla100.github.io/',
-  linkedin: 'https://www.linkedin.com/in/1hanzla100/',
-  github: 'https://github.com/1hanzla100',
-  instagram: 'https://www.instagram.com/__hanzla100',
-  facebook: 'https://www.facebook.com/1hanzla100',
-  twitter: 'https://twitter.com/1hanzla100',
+export const socialLinks = {
+  url: 'https://ty-portfolio-7omflpmtx-twg2767-ritgit-page.vercel.app/',
+  linkedin: 'https://www.linkedin.com/in/ty-gossett-254382a5/',
+  github: 'https://github.com/TyGossett',
+  instagram: 'https://www.instagram.com/gossettty/',
 };
 
 export const skillsSection: SkillsSectionType = {
   title: 'What I do',
-  subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
+  subTitle: 'Data Scientist with a passion for work that helps people.',
   data: [
     {
-      title: 'Full Stack Development',
+      title: 'Data Science',
       lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
       skills: [
         emoji(
-          '⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js'
+          '⚡ Machine learning with libraries like NumPy, SciKitLearn, and Pandas'
         ),
-        emoji('⚡ Building responsive static websites using Next.js'),
-        emoji('⚡ Building RESTful APIs in Django & Django REST Framework'),
+        emoji('⚡ Data visualization with BI tools and packages like Seaborn and MatPlotLib'),
+        emoji('⚡ Using API\'s to better set up clients for success within applicant tracking systems.'),
       ],
       softwareSkills: [
         {
@@ -285,12 +283,12 @@ export const feedbacks: FeedbackType[] = [
   {
     name: 'John Smith',
     feedback:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
+      '- Oh Ty? He rocks',
   },
   {
     name: 'John Smith',
     feedback:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
+      '- I second the above comment',
   },
 ];
 
