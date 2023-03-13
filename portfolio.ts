@@ -219,7 +219,7 @@ export const educationInfo = [
     ],
   },
   {
-    schoolname: 'Kent State University',
+    schoolName: 'Kent State University',
     subHeader: 'Masters of Education in Research, Measurement, and Statistics',
     duration: 'Auguts 2020 - current'
   }
@@ -242,53 +242,38 @@ export const experience: ExperienceType[] = [
     ]
   },
   {
-    role: 'API Engineer',
-    company: 'Duseca Software',
+    role: 'Tennis Professional',
+    company: 'North East Ohio Tennis',
     companyLogo: '/img/icons/common/dusecaSoftware.jpg',
-    date: 'Jan 2022 – Mar 2022',
-    desc: 'I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.',
+    date: 'May 2014 – January 2022',
+    desc: 'Developed and implemented measurable solutions that improved tennis players\' physical fitness, game knowledge, technique, and teamwork while fostering an inclusive learning environment that effectively communicated the intricacies of tennis to individuals with varying levels of experience and from diverse socioeconomic backgrounds.
+
+
+
+    ',
     // descBullets: [
     // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
     // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     // ],
   },
-  {
-    role: 'Full Stack Developer',
-    company: 'Bleed-AI',
-    companyLogo: '/img/icons/common/bleedAI.jpg',
-    date: 'Sept 2021 - Oct 2021',
-    desc: 'Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.',
-  },
-  {
-    role: 'Backend Developer',
-    company: 'Wapidu',
-    companyLogo: '/img/icons/common/wapidu.jpg',
-    date: 'Sept 2021',
-    desc: 'Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.',
-  },
 ];
 
 export const projects: ProjectType[] = [
   {
-    name: 'developer-portfolio',
-    desc: 'Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.',
-    github: 'https://github.com/1hanzla100/developer-portfolio',
-    link: 'https://developer-portfolio-1hanzla100.vercel.app/',
+    name: 'Job Scoring',
+    desc: 'Collaborated with business leaders of a top ten travel nursing and medical staffing agency to assess their tech stack capabilities and develop a high-performing job scoring algorithm using Python and Salesforce data. The algorithm aimed to match candidates with relevant contracts and exceeded traditional matching methods.',
   },
   {
-    name: 'AtlasMart',
-    desc: 'With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.',
-    github: 'https://github.com/1hanzla100/Django-React-Marketplace',
+    name: 'Data Strategy',
+    desc: 'Developed and implemented a comprehensive data strategy for a New York-based medical staffing firm, collaborating closely with stakeholders to ensure data privacy, integrity, and quality. The cross-functional initiative included implementing a data model that better aligned the firm\'s database with their ongoing business and marketing objectives.',
   },
   {
-    name: 'Technota (Forum)',
-    desc: 'Get hands-on experience in technical skills with Technota',
-    github: 'https://github.com/1hanzla100/django-react-forum',
+    name: 'Employee Satisfaction Survey',
+    desc: 'Conducted research and utilized advanced statistical analysis techniques, such as factor analysis and item response theory, to develop an employee satisfaction survey for a large organization. Developed analysis tools in Python to streamline data processing and improve accuracy, resulting in a 20% increase in employee satisfaction and retention.',
   },
   {
-    name: 'Shopaza (Ecommerce)',
-    desc: 'Now your reach to all your favorite entertainment and luxury items is just one touch apart',
-    github: 'https://github.com/1hanzla100/Django-ecommerce',
+    name: 'Lesson Plan Development',
+    desc: 'Simplified and visualized complex mathematical concepts such as abstract algebra, graph theory, and logic for high school students, incorporating real-world applications and interactive activities to make learning engaging and fun. ',
   },
 ];
 
