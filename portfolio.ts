@@ -61,9 +61,8 @@ export const skillsSection: SkillsSectionType = {
       lottieAnimationFile: '/lottie/skills/JobScoring.json', // Path of Lottie Animation JSON File
       skills: [
         emoji(
-          '⚡ Collaborated with business leaders of a top ten travel nursing and medical staffing agency to develop a job scoring algorithm aimed at matching candidates with relevant contracts.'
+          '⚡ Collaborated with business leaders of a top ten travel nursing and medical staffing agency to assess their tech stack capabilities and develop a high-performing job scoring algorithm using Python and Salesforce data. The algorithm aimed to match candidates with relevant contracts and exceeded traditional matching methods.'
         ),
-        emoji('⚡ Conducted a thorough assessment of the agency’s tech stack capabilities, and delivered a high-performing algorithm using Python and Salesforce data that exceeded traditional matching methods.'),
       ],
       softwareSkills: [
         {
@@ -96,7 +95,7 @@ export const skillsSection: SkillsSectionType = {
       title: 'Data-Strategy',
       lottieAnimationFile: '/lottie/skills/DataStrategy.json', // Path of Lottie Animation JSON File
       skills: [
-        emoji('⚡ Developed and implemented a cross-functional initiative for New York based medical staffing firm to develop a comprehensive data strategy, working closely with stakeholders to ensure data privacy, integrity, and quality.'),
+        emoji('⚡ Conducted research and utilized advanced statistical analysis techniques, such as factor analysis and item response theory, to develop an employee satisfaction survey for a large organization. Developed analysis tools in Python to streamline data processing and improve accuracy, resulting in a 20% increase in employee satisfaction and retention.'),
         emoji('⚡ Successfully implemented a data model that better aligned their database with their ongoing business and marketing objectives.'),
       ],
       softwareSkills: [
@@ -124,11 +123,11 @@ export const skillsSection: SkillsSectionType = {
       ],
     },
     {
-      title: 'Employee Satisfaction Survey',
+      title: 'Psychometric Survey Evaluation',
       lottieAnimationFile: '/lottie/skills/EmployeSatSurvey.json', // Path of Lottie Animation JSON File
       skills: [
         emoji(
-          '⚡ Conducted research and developed an employee satisfaction survey for a large organization, utilizing advanced statistical analysis techniques such as factor analysis and item response theory to gain deep insights into employee engagement and satisfaction.'),
+          '⚡ Conducted research and utilized advanced statistical analysis techniques, such as factor analysis and item response theory, to develop an employee satisfaction survey for a large organization. Developed analysis tools in Python to streamline data processing and improve accuracy, resulting in a 20% increase in employee satisfaction and retention.'),
         emoji(
           '⚡ Developed analysis tools in Python to streamline data processing and improve accuracy, resulting in a 20% increase in employee satisfaction and retention.'),
       ],
@@ -168,7 +167,7 @@ export const skillsSection: SkillsSectionType = {
       lottieAnimationFile: '/lottie/skills/LessonPlan.json', // Path of Lottie Animation JSON File
       skills: [
         emoji(
-          '⚡ •	Simplified and visualized complex mathematical concepts such as abstract algebra, graph theory, and logic for high school students, incorporating real-world applications and interactive activities to make learning engaging and fun.'),
+          '⚡ Simplified and visualized complex mathematical concepts such as abstract algebra, graph theory, and logic for high school students, incorporating real-world applications and interactive activities to make learning engaging and fun.'),
       ],
       softwareSkills: [
         {
