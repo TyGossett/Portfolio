@@ -187,20 +187,6 @@ export const skillsSection: SkillsSectionType = {
   ],
 };
 
-export const SkillBars: SkillBarsType[] = [
-  {
-    Stack: 'Data Visualization', //Insert stack or technology you have experience in
-    progressPercentage: '90', //Insert relative proficiency in percentage
-  },
-  {
-    Stack: 'Machine Learning',
-    progressPercentage: '70',
-  },
-  {
-    Stack: 'Programming',
-    progressPercentage: '60',
-  },
-];
 
 export const educationInfo = [
   {
