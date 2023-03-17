@@ -2,6 +2,7 @@ import React, { useState} from 'react';
 import {Container, Row, Col}  from 'reactstrap';
 import StarCard from '../components/StarCard';
 import { StarBox } from '../portfolio';
+import Fade from 'react-reveal/Fade';
 
 const StarRating = () => {
     const [ratings, setRatings] = useState<number[]>(new Array(StarBox.length).fill(0));
