@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Card, CardBody } from "reactstrap";
 import './StarRating.css';
 import Fade from 'react-reveal/Fade';
-import { < StarQuestion } from '../types/sections';
+import { StarQuestion } from '../types/sections';
 
 const StarCard = ({ question, onRatingChange }: 
 StarQuestion) => {
