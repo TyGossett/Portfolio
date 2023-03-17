@@ -6,7 +6,7 @@ const Education = dynamic(() => import('../containers/Education'));
 const Experience = dynamic(() => import('../containers/Experience'));
 const Projects = dynamic(() => import('../containers/Projects'));
 const Feedbacks = dynamic(() => import('../containers/Feedbacks'));
-const StarRating = dynamic(() => import('../containers/StarsRating'));
+const StarRating = dynamic(() => import('../containers/StarRating'));
 const GithubProfileCard = dynamic(
   () => import('../components/GithubProfileCard')
 );
