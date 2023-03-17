@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Card, CardBody } from "reactstrap";
-import { IoIosStar, IoIosStarOutline } from "react-icons/io";
 import './StarRating.css';
 import Fade from 'reacht-reveal/Fade';
 import { StarQ } from '../types/sections';
