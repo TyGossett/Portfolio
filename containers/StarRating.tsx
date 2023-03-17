@@ -21,6 +21,32 @@ const StarRating = () => {
 
     const totalScore = ratings.reduce((acc, curr) => acc + curr, 0);
 
+    const ResultCard = () => {
+      let resultText = "";
+  
+      if (totalScore <= 5) {
+        resultText = "You scored low!";
+      } else if (totalScore <= 10) {
+        resultText = "You scored average!";
+      } else {
+        resultText = "You scored high!";
+      }
+  
+      return (
+        <Fade bottom>
+          <Card className="card-lift-hover shadow mt-4">
+            <CardBody>
+              <div className="d-flex px-3">
+                <div className="pl-4">
+                  <h5 className="text-info">{resultText}</h5>
+                </div>
+              </div>
+            </CardBody>
+          </Card>
+        </Fade>
+      );
+    };
+
     return (
       StarBox && (
         <section className="section pb-0 bg-gradient-info my-5">
@@ -47,23 +73,6 @@ const StarRating = () => {
                 );
               })}
             </Row>
-            {allQuestionsAnswered && (
-            <Row>
-              <Col>
-                <h4>Total Score: {totalScore}</h4>
-                {totalScore >= 0 && totalScore <= 5 && (
-                  <p>Based on your total score, display content for 0-5 stars.</p>
-                )}
-                {totalScore >= 6 && totalScore <= 10 && (
-                  <p>Based on your total score, display content for 6-10 stars.</p>
-                )}
-                {totalScore >= 11 && totalScore <= 15 && (
-                  <p>Based on your total score, display content for 11-15 stars.</p>
-                )}
-                {/* Add more conditions for other star ranges */}
-              </Col>
-            </Row>
-          )}
           </Container>
           <div className="separator separator-bottom separator-skew zindex-100">
             <svg
