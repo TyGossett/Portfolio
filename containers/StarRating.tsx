@@ -1,5 +1,5 @@
 import Reach from 'react';
-import {Container, Row}  from 'reactstrap';
+import {Container, Row, Col}  from 'reactstrap';
 import StarCard from '../components/StarCard';
 import { StarBox } from '../portfolio';
 
