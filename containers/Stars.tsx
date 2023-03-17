@@ -3,7 +3,7 @@ import { Card, CardBody,Badge}  from 'reactstrap';
 import StarRating from '../components/StarRating';
 import { StarQuestion } from '../portfolio';
 
-const StarRatingContainer = () => {
+const Stars = () => {
     return (
       <section className="section pb-0 bg-gradient-info my-5">
         <Container>
@@ -43,4 +43,4 @@ const StarRatingContainer = () => {
     );
   };
   
-  export default StarRatingContainer;
+  export default Stars;

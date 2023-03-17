@@ -5,7 +5,7 @@ import {
   FeedbackType,
   ProjectType,
   SkillsSectionType,
-  SkillBarsType,
+  StarQ,
   SEODataType,
   SocialLinksType,
   GreetingsType,
@@ -187,6 +187,7 @@ export const skillsSection: SkillsSectionType = {
   ],
 };
 
+
 export const educationInfo = [
   {
     schoolName: 'Rochester Institute of Technology',
@@ -205,6 +206,10 @@ export const educationInfo = [
     desc: '',
   }
 ];
+
+export const Stars: StarQ [] = {
+  question = 'Is this working now?',
+}
 
 export const experience: ExperienceType[] = [
   {
@@ -227,11 +232,7 @@ export const experience: ExperienceType[] = [
   },
 ];
 
-export const StarQuestion: StarQ[] = [
-  {
-    question = 'On a scale of 1-5, how cool is this?'
-  }
-] 
+
 export const feedbacks: FeedbackType[] = [
   {
     name: 'Ty\'s Mom',
