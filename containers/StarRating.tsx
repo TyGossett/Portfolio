@@ -4,6 +4,17 @@ import StarCard from '../components/StarCard';
 import { StarBox } from '../portfolio';
 
 const StarRating = () => {
+    const [ratings, setRatings] = useState<number[]>(new Array(StarBox.length).fill(0));
+    const handleRatingChange = (newRating: number) => {
+      setRatings((prevRatings) => {
+        const updatedRatings = [...prevRatings];
+        updatedRatings[index] = newRating;
+        return updatedRatings;
+      });
+    };
+
+    const totalScore = ratings.reduce((acc, curr) => acc + curr, 0);
+
     return (
       StarBox && (
         <section className="section pb-0 bg-gradient-info my-5">
@@ -19,10 +30,13 @@ const StarRating = () => {
               </div>
             </div>
             <Row className="row-grid align-items-center">
-              {StarBox.map((question, onRatingChange) => {
+              {StarBox.map((question, index) => {
                 return (
-                  <Col className="order-lg-1" lg="6" key={onRatingChange}>
-                    <StarRating question={question} />
+                  <Col className="order-lg-1" lg="6" key={index}>
+                    <StarCard
+                    question={question}
+                    onRatingChange={(newRating) =>handelRatingChange(index,newRating)}
+                    />
                   </Col>
                 );
               })}

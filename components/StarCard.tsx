@@ -4,7 +4,7 @@ import './StarRating.css';
 import Fade from 'react-reveal/Fade';
 import { StarQuestion } from '../types/sections';
 
-const StarCard = ({ question, onRatingChange }: 
+const StarCard:  React.FC<StarQuestion> = ({ question, onRatingChange }: 
 StarQuestion) => {
   const [rating, setRating] = useState(0);
   const [hover, setHover] = useState(0);
