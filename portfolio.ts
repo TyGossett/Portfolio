@@ -207,10 +207,10 @@ export const educationInfo = [
   }
 ];
 
-export const StarBox = {
+export const StarBox = [
   'Is this working now?',
   'Let\'s add another question',
-}
+]
 
 export const experience: ExperienceType[] = [
   {
