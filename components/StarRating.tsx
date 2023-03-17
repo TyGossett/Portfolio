@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Card, CardBody } from "reactstrap";
 import './StarRating.css';
-import Fade from 'reacht-reveal/Fade';
+import Fade from 'react-reveal/Fade';
 import { StarQ } from '../types/sections';
 
 interface StarQ {
