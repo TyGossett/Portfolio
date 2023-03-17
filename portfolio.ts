@@ -207,7 +207,7 @@ export const educationInfo = [
   }
 ];
 
-export const Stars: StarQ [] = {
+export const StarRating: StarQuestion [] = {
   question = 'Is this working now?',
 }
 

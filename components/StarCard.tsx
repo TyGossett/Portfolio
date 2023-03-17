@@ -4,7 +4,8 @@ import './StarRating.css';
 import Fade from 'react-reveal/Fade';
 import { StarQ } from '../types/sections';
 
-const StarRating = ({ question, onRatingChange }: StarQ) => {
+const StarCard = ({ question, onRatingChange }: 
+StarQuestion) => {
   const [rating, setRating] = useState(0);
   const [hover, setHover] = useState(0);
 
@@ -48,4 +49,4 @@ const StarRating = ({ question, onRatingChange }: StarQ) => {
   );
 };
 
-export default StarRating;
+export default StarCard;

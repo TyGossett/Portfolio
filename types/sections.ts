@@ -89,7 +89,7 @@ export type FeedbackType = {
 
 // * Star Rating Section
 
-export type StarQ = {
+export type StarQuestion = {
   question: string;
   onRatingChange: (newRating: number) => void;
 }

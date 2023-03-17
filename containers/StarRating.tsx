@@ -1,9 +1,9 @@
 import Reach from 'react';
 import { Card, CardBody,Badge}  from 'reactstrap';
-import StarRating from '../components/StarRating';
+import StarCard from '../components/StarCard';
 import { StarQuestion } from '../portfolio';
 
-const Stars = () => {
+const StarRating = () => {
     return (
       <section className="section pb-0 bg-gradient-info my-5">
         <Container>
@@ -14,7 +14,7 @@ const Stars = () => {
               </div>
             </div>
             <div className="pl-4">
-              <h4 className="display-3 text-white">Star Rating</h4>
+              <h4 className="display-3 text-white">Star Card</h4>
             </div>
           </div>
           <Row className="row-grid align-items-center">
@@ -43,4 +43,4 @@ const Stars = () => {
     );
   };
   
-  export default Stars;
+  export default StarRating;
