@@ -18,7 +18,7 @@ const StarRating = () => {
             </div>
           </div>
           <Row className="row-grid align-items-center">
-            {questions.map((question, index) => {
+            {StarCard.map((question, index) => {
               return (
                 <Col className="order-lg-1" lg="6" key={index}>
                   <StarRating question={question} />
