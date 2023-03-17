@@ -24,7 +24,7 @@ StarQuestion) => {
           style={{
             cursor: "pointer",
             color: starValue <= (hover || rating) ? "gold" : "gray",
-            fontSize: "30px",
+            fontSize: "45px",
           }}
         >
           {String.fromCharCode(9733)} {/* Unicode star character */}
@@ -35,7 +35,7 @@ StarQuestion) => {
 
   return (
     <Fade left duration={2000}>
-      <Card className="card-lift-hover shadow mt-4">
+      <Card className="card-lift-hover shadow mt-4" style={{ zIndex: 1000 }}>
         <CardBody>
           <div className="d-flex px-3">
             <div className="pl-4">
