@@ -91,4 +91,5 @@ export type FeedbackType = {
 
 export type StarQ = {
   question: string;
+  onRatingChange: (newRating: number) => void;
 }

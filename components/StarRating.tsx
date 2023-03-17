@@ -4,11 +4,6 @@ import './StarRating.css';
 import Fade from 'react-reveal/Fade';
 import { StarQ } from '../types/sections';
 
-interface StarQ {
-  question: string;
-  onRatingChange: (newRating: number) => void;
-}
-
 const StarRating = ({ question, onRatingChange }: StarQ) => {
   const [rating, setRating] = useState(0);
   const [hover, setHover] = useState(0);
