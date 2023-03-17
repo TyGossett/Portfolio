@@ -24,6 +24,7 @@ StarQuestion) => {
           style={{
             cursor: "pointer",
             color: starValue <= (hover || rating) ? "gold" : "gray",
+            fontSize: "30px",
           }}
         >
           {String.fromCharCode(9733)} {/* Unicode star character */}

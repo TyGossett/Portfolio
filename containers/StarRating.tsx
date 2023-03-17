@@ -5,6 +5,7 @@ import { StarBox } from '../portfolio';
 
 const StarRating = () => {
     const [ratings, setRatings] = useState<number[]>(new Array(StarBox.length).fill(0));
+    const [allQuestionsAnswered, setAllQuestionsAnswered] = useState(false);
 
     const handleRatingChange = (index: number, newRating: number) => {
       setRatings((prevRatings) => {
@@ -12,6 +13,10 @@ const StarRating = () => {
         updatedRatings[index] = newRating;
         return updatedRatings;
       });
+
+      // Check if all questions have been answered
+    const allAnswered = ratings.every((rating, idx) => (idx === index ? newRating : rating) > 0);
+    setAllQuestionsAnswered(allAnswered);
     };
 
     const totalScore = ratings.reduce((acc, curr) => acc + curr, 0);
@@ -42,6 +47,23 @@ const StarRating = () => {
                 );
               })}
             </Row>
+            {allQuestionsAnswered && (
+            <Row>
+              <Col>
+                <h4>Total Score: {totalScore}</h4>
+                {totalScore >= 0 && totalScore <= 5 && (
+                  <p>Based on your total score, display content for 0-5 stars.</p>
+                )}
+                {totalScore >= 6 && totalScore <= 10 && (
+                  <p>Based on your total score, display content for 6-10 stars.</p>
+                )}
+                {totalScore >= 11 && totalScore <= 15 && (
+                  <p>Based on your total score, display content for 11-15 stars.</p>
+                )}
+                {/* Add more conditions for other star ranges */}
+              </Col>
+            </Row>
+          )}
           </Container>
           <div className="separator separator-bottom separator-skew zindex-100">
             <svg
