@@ -1,5 +1,5 @@
 import React, { useState} from 'react';
-import {Container, Row, Col}  from 'reactstrap';
+import { Card, CardBody, Container, Row, Col}  from 'reactstrap';
 import StarCard from '../components/StarCard';
 import { StarBox } from '../portfolio';
 import Fade from 'react-reveal/Fade';
