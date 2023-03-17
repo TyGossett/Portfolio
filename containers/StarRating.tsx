@@ -1,4 +1,4 @@
-import Reach, { useState} from 'react';
+import React, { useState} from 'react';
 import {Container, Row, Col}  from 'reactstrap';
 import StarCard from '../components/StarCard';
 import { StarBox } from '../portfolio';
