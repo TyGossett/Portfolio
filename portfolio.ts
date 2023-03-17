@@ -5,7 +5,7 @@ import {
   FeedbackType,
   ProjectType,
   SkillsSectionType,
-  StarQ,
+  StarQuestion,
   SEODataType,
   SocialLinksType,
   GreetingsType,
