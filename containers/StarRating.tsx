@@ -5,7 +5,7 @@ import { StarBox } from '../portfolio';
 
 const StarRating = () => {
     const [ratings, setRatings] = useState<number[]>(new Array(StarBox.length).fill(0));
-    
+
     const handleRatingChange = (index: number, newRating: number) => {
       setRatings((prevRatings) => {
         const updatedRatings = [...prevRatings];
@@ -36,7 +36,7 @@ const StarRating = () => {
                   <Col className="order-lg-1" lg="6" key={index}>
                     <StarCard
                     question={question}
-                    onRatingChange={(newRating) =>handelRatingChange(index,newRating)}
+                    onRatingChange={(newRating) =>handleRatingChange(index,newRating)}
                     />
                   </Col>
                 );
