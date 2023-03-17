@@ -86,3 +86,9 @@ export type FeedbackType = {
   name: string;
   feedback: string;
 };
+
+// * Star Rating Section
+
+export type StarQ = {
+  question: string;
+}
