@@ -207,8 +207,9 @@ export const educationInfo = [
   }
 ];
 
-export const StarBox: StarQuestion [] = {
-  question = 'Is this working now?',
+export const StarBox = {
+  'Is this working now?',
+  'Let\'s add another question',
 }
 
 export const experience: ExperienceType[] = [
