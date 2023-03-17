@@ -27,11 +27,13 @@ const StarRating = () => {
       let resultText = "";
   
       if (totalScore <= 5) {
-        resultText = "You scored low!";
+        resultText = "Not a perfect match, but I would still love to hear from you!";
       } else if (totalScore <= 10) {
-        resultText = "You scored average!";
+        resultText = "We have some things in common, let's talk about it!";
+      } else if (totalScore <= 15) {
+        resultText = "We have a lot in common, let's talk about it!";
       } else {
-        resultText = "You scored high!";
+        resultText = 'A near perfect match!'
       }
   
       return (

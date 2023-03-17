@@ -208,8 +208,10 @@ export const educationInfo = [
 ];
 
 export const StarBox = [
-  'Is this working now?',
-  'Let\'s add another question',
+  'We prioritize Diversity, Equity, Inclusion, and Accessability',
+  'Our work makes a material impact on peoples lives',
+  'We make sure work is "pushing the needle" for our clients',
+  'We work to stride for greateness, instead of working to avoid disapointment'
 ]
 
 export const experience: ExperienceType[] = [
