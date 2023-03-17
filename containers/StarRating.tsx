@@ -5,7 +5,8 @@ import { StarBox } from '../portfolio';
 
 const StarRating = () => {
     const [ratings, setRatings] = useState<number[]>(new Array(StarBox.length).fill(0));
-    const handleRatingChange = (newRating: number) => {
+    
+    const handleRatingChange = (index: number, newRating: number) => {
       setRatings((prevRatings) => {
         const updatedRatings = [...prevRatings];
         updatedRatings[index] = newRating;
