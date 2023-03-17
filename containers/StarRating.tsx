@@ -73,6 +73,7 @@ const StarRating = () => {
                 );
               })}
             </Row>
+            {allAnswered && <ResultCard />}
           </Container>
           <div className="separator separator-bottom separator-skew zindex-100">
             <svg
