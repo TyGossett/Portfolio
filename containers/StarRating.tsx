@@ -1,7 +1,7 @@
 import Reach from 'react';
 import { Card, CardBody,Badge}  from 'reactstrap';
 import StarCard from '../components/StarCard';
-import { <StarBox></StarBox> } from '../portfolio';
+import { StarBox } from '../portfolio';
 
 const StarRating = () => {
     return (
