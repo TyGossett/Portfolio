@@ -21,7 +21,7 @@ const StarRating = () => {
             <Row className="row-grid align-items-center">
               {StarBox.map((question, onRatingChange) => {
                 return (
-                  <Col className="order-lg-1" lg="6" key={index}>
+                  <Col className="order-lg-1" lg="6" key={onRatingChange}>
                     <StarRating question={question} />
                   </Col>
                 );
