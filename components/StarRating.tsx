@@ -7,9 +7,10 @@ import { StarQ } from '../types/sections';
 
 interface StarQ {
   question: string;
+  onRatingChange: (newRating: number) => void;
 }
 
-const StarRating = ({ question }: StarQ) => {
+const StarRating = ({ question, onRatingChange }: StarQ) => {
   const [rating, setRating] = useState(0);
   const [hover, setHover] = useState(0);
 
@@ -22,13 +23,16 @@ const StarRating = ({ question }: StarQ) => {
           key={index}
           onMouseEnter={() => setHover(starValue)}
           onMouseLeave={() => setHover(0)}
-          onClick={() => setRating(starValue)}
+          onClick={() => {
+            setRating(starValue);
+            onRatingChange(starValue);
+          }}
+          style={{
+            cursor: "pointer",
+            color: starValue <= (hover || rating) ? "gold" : "gray",
+          }}
         >
-          {starValue <= (hover || rating) ? (
-            <IoIosStar color="gold" />
-          ) : (
-            <IoIosStarOutline />
-          )}
+          {String.fromCharCode(9733)} {/* Unicode star character */}
         </span>
       );
     });
