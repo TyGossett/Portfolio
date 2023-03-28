@@ -83,7 +83,7 @@ const StarRating = () => {
                   <Col className="order-lg-1" lg="6" key={index}>
                     <StarCard
                     question={question}
-                    onRatingChange={(newRating) =>handleRatingChange(index, value)}
+                    onRatingChange={(value) =>handleRatingChange(index, value)}
                     />
                   </Col>
                 );
