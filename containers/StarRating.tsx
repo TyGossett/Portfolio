@@ -27,14 +27,14 @@ const StarRating = () => {
     };
 
       // Check if all questions have been answered
-      if (!allAnswered && ratings.every((rating) => rating > 0)) {
-        setAllAnswered(true);
-      }
-    };
-
-    const totalScore = ratings.reduce((acc, curr) => acc + curr, 0);
+     // if (!allAnswered && ratings.reduce((ra) => rating > 0)) {
+     //   setAllAnswered(true);
+     // }
+    //};
 
     const ResultCard = () => {
+      const totalScore = ratings.reduce((acc, curr) => acc + curr, 0);
+
       let resultText = "";
   
       if (totalScore <= 5) {
