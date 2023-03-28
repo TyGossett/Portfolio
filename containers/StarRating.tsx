@@ -48,11 +48,12 @@ const StarRating = () => {
       }
   
       return (
-        <Fade bottom>
+        <Fade left duration={2000}>
           <Card className="card-lift-hover shadow mt-4">
             <CardBody>
               <div className="d-flex px-3">
                 <div className="pl-4">
+                  <h5 className="text-info">Total Stars: {totalStars}</h5>
                   <h5 className="text-info">{resultText}</h5>
                 </div>
               </div>
@@ -82,7 +83,7 @@ const StarRating = () => {
                   <Col className="order-lg-1" lg="6" key={index}>
                     <StarCard
                     question={question}
-                    onRatingChange={(newRating) =>handleRatingChange(index,newRating)}
+                    onRatingChange={(newRating) =>handleRatingChange(index, value)}
                     />
                   </Col>
                 );
