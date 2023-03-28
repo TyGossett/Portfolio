@@ -7,13 +7,24 @@ import Fade from 'react-reveal/Fade';
 const StarRating = () => {
     const [ratings, setRatings] = useState<number[]>(new Array(StarBox.length).fill(0));
     const [allAnswered, setAllAnswered] = useState<boolean>(false);
+    const [answeredCount, setAnsweredCount] = useState<number>(0);
 
-    const handleRatingChange = (index: number, newRating: number) => {
-      setRatings((prevRatings) => {
-        const updatedRatings = [...prevRatings];
-        updatedRatings[index] = newRating;
-        return updatedRatings;
+
+    const handleRatingChange = (questionIndex: number, value: number) => {
+      setRatings(prevRatings => {
+        const newRatings = [...prevRatings];
+        if (newRatings[questionIndex] === 0) {
+          setAnsweredCount(prevCount => prevCount + 1);
+        }
+        newRatings[questionIndex] = value;
+  
+        if (answeredCount === StarBox.length - 1) {
+          setAllAnswered(true);
+        }
+  
+        return newRatings;
       });
+    };
 
       // Check if all questions have been answered
       if (!allAnswered && ratings.every((rating) => rating > 0)) {
