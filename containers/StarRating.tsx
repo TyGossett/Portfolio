@@ -53,7 +53,7 @@ const StarRating = () => {
             <CardBody>
               <div className="d-flex px-3">
                 <div className="pl-4">
-                  <h5 className="text-info">Total Stars: {totalStars}</h5>
+                  <h5 className="text-info">Total Stars: {totalScore}</h5>
                   <h5 className="text-info">{resultText}</h5>
                 </div>
               </div>
