@@ -33,25 +33,6 @@ export const socialLinks = {
   instagram: 'https://www.instagram.com/gossettty/',
 };
 
-export const projects: ProjectType[] = [
-  {
-    name: 'Job Scoring',
-    desc: 'Collaborated with business leaders of a top ten travel nursing and medical staffing agency to assess their tech stack capabilities and develop a high-performing job scoring algorithm using Python and Salesforce data. The algorithm aimed to match candidates with relevant contracts and exceeded traditional matching methods.',
-  },
-  {
-    name: 'Data Strategy',
-    desc: 'Developed and implemented a comprehensive data strategy for a New York-based medical staffing firm, collaborating closely with stakeholders to ensure data privacy, integrity, and quality. The cross-functional initiative included implementing a data model that better aligned the firm\'s database with their ongoing business and marketing objectives.',
-  },
-  {
-    name: 'Employee Satisfaction Survey',
-    desc: 'Conducted research and utilized advanced statistical analysis techniques, such as factor analysis and item response theory, to develop an employee satisfaction survey for a large organization. Developed analysis tools in Python to streamline data processing and improve accuracy, resulting in a 20% increase in employee satisfaction and retention.',
-  },
-  {
-    name: 'Lesson Plan Development',
-    desc: 'Simplified and visualized complex mathematical concepts such as abstract algebra, graph theory, and logic for high school students, incorporating real-world applications and interactive activities to make learning engaging and fun. ',
-  },
-];
-
 export const skillsSection: SkillsSectionType = {
   title: 'Some of my projects',
   subTitle: 'Data Scientist with a passion for work that helps people.',
@@ -219,8 +200,8 @@ export const experience: ExperienceType[] = [
     role: 'Data Scientist',
     company: 'PARQA',
     companyLogo: '/img/icons/common/ParqaLogo.png',
-    date: 'Apr 2022 – Jun 2022',
-    desc: 'As a client-facing data scientist in a marketing agency startup that works with staffing firms, I analyze large amounts of staffing industry data to develop predictive models and segmentation strategies that optimize the performance of clients\' marketing campaigns and recruitment initiatives. I collaborate closely with clients to understand their business goals and requirements, and regularly communicate data-driven insights and recommendations to ensure they stay informed and achieve measurable results.',
+    date: 'Jan 2022 - Current',
+    desc: 'As a client-facing data scientist in a digital transformation agency that works with staffing firms, I analyze large amounts of staffing industry data to develop predictive models and segmentation strategies that optimize the performance of clients\' marketing campaigns and recruitment initiatives. I collaborate closely with clients to understand their business goals and requirements, and regularly communicate data-driven insights and recommendations to ensure they stay informed and achieve measurable results.',
   },
   {
     role: 'Tennis Professional',
@@ -234,7 +215,16 @@ export const experience: ExperienceType[] = [
     // ],
   },
 ];
-
+export const projects: ProjectType[] = [
+  {
+    name: 'Head Tutor',
+    desc: 'Designed and implimented a comprehensive tutor plan for 10-20 Rochester city school students, providing personalized instruction and guidance to help them prepare for SAT, ACT, and New York State Exams',
+  },
+  {
+    name: 'Mystery Hunt Participant',
+    desc: 'Developed and implemented a comprehensive data strategy for a New York-based medical staffing firm, collaborating closely with stakeholders to ensure data privacy, integrity, and quality. The cross-functional initiative included implementing a data model that better aligned the firm\'s database with their ongoing business and marketing objectives.',
+  },
+];
 
 export const feedbacks: FeedbackType[] = [
   {
@@ -258,7 +248,7 @@ export const seoData: SEODataType = {
   description:
     'A portfolio site of Data Scientist Ty Gossett',
   author: 'Ty Gossett',
-  image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
+  image: 'https://avatars.githubusercontent.com/TyGossett',
   url: 'https://ty-portfolio-cfp94mtzq-twg2767-ritgit-page.vercel.app/',
   keywords: [
     'Ty',
