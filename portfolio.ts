@@ -188,10 +188,6 @@ export const educationInfo = [
   }
 ];
 
-.star-box {
-  z-index: 9999;
-}
-
 export const StarBox = [
   'We prioritize Diversity, Equity, Inclusion, and Accessability',
   'Our work makes a material impact on peoples lives',
