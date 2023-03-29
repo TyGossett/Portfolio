@@ -273,24 +273,14 @@ export const projects: ProjectType[] = [
 
 export const feedbacks: FeedbackType[] = [
   {
-    name: 'Ty\'s Mom',
+    name: 'Susan Debruzzi - Director of Strategic Marketing Solutions',
     feedback:
-      '- He\'s cool and knows data science.',
+      'Ty is a truly exceptional data scientist and former direct report of mine. I have had the pleasure of working closely with him for over a year now, and during that time, his ability to articulate complex concepts and deliver impactful solutions to our clients consistently impresses me. He showcases a strong aptitude for identifying and implementing data-driven solutions that align with the specific needs and objectives of the businesses we serve. Ty\'s innovative approach to problem-solving allows us to better serve our clients.',
   },
   {
-    name: 'Amy Vaughan',
+    name: 'Amy Vaughan - AI Content Strategist',
     feedback:
-      '- He aight',
-  },
-  {
-  name: 'Amy Vaughan',
-  feedback:
-    '- He super aight',
-  },
-  {
-  name: 'Amy Vaughan',
-  feedback:
-    '- He the most aight',
+      'Ty\'s intelligence is evident in his ability to develop predictive models and machine learning algorithms that drive revenue growth, cost savings, and process efficiencies. His passion for data-driven decision-making is contagious, inspiring our entire team to push the boundaries of what\'s possible.',
   },
 ];
 

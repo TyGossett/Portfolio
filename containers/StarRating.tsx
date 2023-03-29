@@ -38,13 +38,13 @@ const StarRating = () => {
       let resultText = "";
   
       if (totalScore <= 5) {
-        resultText = "Not a perfect match, but I would still love to hear from you!";
+        resultText = "Little Match: Despite a slight misalignment, our combined perspectives can lead to creative breakthroughs! Let's embark on an exciting journey of discovery. Contact me below.";
       } else if (totalScore <= 10) {
-        resultText = "We have some things in common, let's talk about it!";
+        resultText = "Moderate Match: Our shared values lay the groundwork for a successful collaboration with room to grow. Let's join forces and make a meaningful impact. Contact me below.";
       } else if (totalScore <= 15) {
-        resultText = "We have a lot in common, let's talk about it!";
+        resultText = "Good Match: We've got a strong match! Together, we can create an inspiring and energizing work experience. Let's make great things happen. Contact me below.!";
       } else {
-        resultText = 'A near perfect match!'
+        resultText = 'Perfect Match: Explore our seemless synergy and lets success unfold! Contact me below!'
       }
   
       return (
