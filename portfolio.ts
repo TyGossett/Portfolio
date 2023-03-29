@@ -282,6 +282,16 @@ export const feedbacks: FeedbackType[] = [
     feedback:
       '- He aight',
   },
+  {
+  name: 'Amy Vaughan',
+  feedback:
+    '- He super aight',
+  },
+  {
+  name: 'Amy Vaughan',
+  feedback:
+    '- He the most aight',
+  },
 ];
 
 // option to hide or show the ContactUs component
