@@ -114,7 +114,7 @@ export const skillsSection: SkillsSectionType = {
           fontAwesomeClassName: 'simple-icons:talend',
         },
         {
-          skillname: 'Tableau',
+          skillName: 'Tableau',
           fontAwesomeClassName: 'logos:tableau-icon',
         },
       ],
